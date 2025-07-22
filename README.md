@@ -1,9 +1,11 @@
 🚗 In-Vehicle Coupon Recommendation Prediction
 This repository contains the code and analysis for predicting coupon acceptance in an in-vehicle context. The goal is to build a model that can accurately recommend coupons to drivers based on various factors, thereby improving the effectiveness of coupon campaigns.
-*## Project Overview  ## 
+
+Project Overview
 In today's competitive market, businesses are constantly looking for innovative ways to attract and retain customers. In-vehicle coupon recommendations offer a unique opportunity to engage drivers with relevant offers based on their current context, such as destination, weather, time of day, and personal preferences.
 
 This project aims to develop a predictive model that determines whether a driver will accept a given coupon. By leveraging machine learning techniques, we analyze a comprehensive dataset containing driver demographics, driving habits, coupon types, and environmental factors to predict coupon acceptance. The insights gained from this project can help businesses optimize their coupon distribution strategies and enhance customer satisfaction.
+
 Dataset
 The dataset used in this project is in-vehicle-coupon-recommendation.csv. It contains 12,684 entries and 26 columns, encompassing various features related to the driver, the coupon, and the driving context.
 
@@ -46,6 +48,7 @@ toCoupon_GEQ5min, toCoupon_GEQ15min, toCoupon_GEQ25min: Time to reach the coupon
 direction_same, direction_opp: Direction relative to the coupon.
 
 Y: Target variable; coupon acceptance (1 = Accepted, 0 = Rejected).
+
 Methodology
 The project follows a standard machine learning pipeline:
 
